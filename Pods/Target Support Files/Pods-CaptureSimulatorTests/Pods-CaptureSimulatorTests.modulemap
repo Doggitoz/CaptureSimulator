@@ -1,0 +1,6 @@
+framework module Pods_CaptureSimulatorTests {
+  umbrella header "Pods-CaptureSimulatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

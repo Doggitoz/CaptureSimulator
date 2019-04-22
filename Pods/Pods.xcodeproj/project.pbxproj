@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D43109E954986F2C62A9D762B0F1300 /* Pods-CaptureSimulatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5A2D433ED9C9A2D377BD70B5B096D /* Pods-CaptureSimulatorTests-dummy.m */; };
+		22969B3F28E9FEBC0303C9C27BC8FF64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2C3BC85451C65EA07B1C8D9DD500E7FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3BF35B29CD594217440B4F44E74818DD /* Pods-CaptureSimulatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF352F0A9E3B203645CEB6F87B7CCFE1 /* Pods-CaptureSimulatorUITests-dummy.m */; };
+		40DEC474AE64007349803AAC3C545675 /* Pods-CaptureSimulator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338D9FA4A4719452AF6695CEBD55F26 /* Pods-CaptureSimulator-dummy.m */; };
+		4298674E05BDB523D5CC31E29C92695E /* Pods-CaptureSimulatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2579B026F5BE1FB826D67AD1A9EE2FDF /* Pods-CaptureSimulatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654737E5726FAB7E0B62F84A6F76741A /* Pods-CaptureSimulator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E3FCCB47E8EE64524C458D1A55C62E /* Pods-CaptureSimulator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5590B1BE1E8FAAE487DFCC4ECD3189D /* Pods-CaptureSimulatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3196A1C5611F551B98FDAEBAEC5A78 /* Pods-CaptureSimulatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAE602C624A28634FF4B447F30AE76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4417D3ACDCC1A551CFC6FB782349807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0941D4E115ACC2FF30A18A16E5D7985;
+			remoteInfo = "Pods-CaptureSimulator";
+		};
+		CB4510D13E2AA3BFA2C0206428B9E476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0941D4E115ACC2FF30A18A16E5D7985;
+			remoteInfo = "Pods-CaptureSimulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0165CF2FF01056609193711AB157E6EF /* Pods_CaptureSimulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B8D32770C3059855D6C98CA4DEC12B /* Pods-CaptureSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+		0C186E88C269CC5428EC7DE0149DAD88 /* Pods-CaptureSimulatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulatorUITests-Info.plist"; sourceTree = "<group>"; };
+		145B34872C2078B05F7E2F550867A1CF /* Pods-CaptureSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		17246877369B9C7064BF055D717EC136 /* Pods-CaptureSimulator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulator-acknowledgements.plist"; sourceTree = "<group>"; };
+		17D0FDBC79B67267FB05D36E67717641 /* Pods-CaptureSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A88C9C3D659134B1B6E82231D30666F /* Pods-CaptureSimulatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureSimulatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B7D343B48305D1659480C2D5FB7693D /* Pods-CaptureSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		23D5A2D433ED9C9A2D377BD70B5B096D /* Pods-CaptureSimulatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureSimulatorTests-dummy.m"; sourceTree = "<group>"; };
+		2579B026F5BE1FB826D67AD1A9EE2FDF /* Pods-CaptureSimulatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureSimulatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		33C978B525B5E9CA972B6411A7B09CB5 /* Pods-CaptureSimulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4455DC916B33E7CEA772AB2F4DD08111 /* Pods-CaptureSimulatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureSimulatorTests.modulemap"; sourceTree = "<group>"; };
+		4FCBF3A36B71554F0678E5B6C559F466 /* Pods-CaptureSimulator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureSimulator.modulemap"; sourceTree = "<group>"; };
+		531DD1A3E31E54E4A5CC258DE24A2EBE /* Pods-CaptureSimulatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureSimulatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		574518DF9BED7D82D53C61A6CE561158 /* Pods-CaptureSimulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptureSimulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6338D9FA4A4719452AF6695CEBD55F26 /* Pods-CaptureSimulator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureSimulator-dummy.m"; sourceTree = "<group>"; };
+		64A514DABCBDF79C781CDB9F6101C83A /* Pods-CaptureSimulatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulatorTests-Info.plist"; sourceTree = "<group>"; };
+		668BD98E5232E5B129EB04AF707D7926 /* Pods-CaptureSimulator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulator-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E3FCCB47E8EE64524C458D1A55C62E /* Pods-CaptureSimulator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureSimulator-umbrella.h"; sourceTree = "<group>"; };
+		AC54C613B8D3DF9C09EF9D24B5AE4C99 /* Pods_CaptureSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE2FB3B72121C6BAF527C25BD135D0D /* Pods-CaptureSimulatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF352F0A9E3B203645CEB6F87B7CCFE1 /* Pods-CaptureSimulatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptureSimulatorUITests-dummy.m"; sourceTree = "<group>"; };
+		B46AE28B216DF47A2EFCD86268B17BBD /* Pods_CaptureSimulatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E84E17B82B1C13078629C18D65C6D5 /* Pods-CaptureSimulatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptureSimulatorUITests.modulemap"; sourceTree = "<group>"; };
+		BD68F68015AE60BC1D5FECA3283241D4 /* Pods-CaptureSimulatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptureSimulatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF6099A139C6029A5399C8F24DB080C2 /* Pods-CaptureSimulator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptureSimulator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD3196A1C5611F551B98FDAEBAEC5A78 /* Pods-CaptureSimulatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptureSimulatorTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADC1E477C94C0BA89B89D972BA9D10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22969B3F28E9FEBC0303C9C27BC8FF64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513EC5D1A88B6F5646A4F402FEACB9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C3BC85451C65EA07B1C8D9DD500E7FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769267A67768375DB916E410420F41F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE602C624A28634FF4B447F30AE76E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDAAB87562BA1708EDF1BA79E4E0E18 /* Pods-CaptureSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				4FCBF3A36B71554F0678E5B6C559F466 /* Pods-CaptureSimulator.modulemap */,
+				BF6099A139C6029A5399C8F24DB080C2 /* Pods-CaptureSimulator-acknowledgements.markdown */,
+				17246877369B9C7064BF055D717EC136 /* Pods-CaptureSimulator-acknowledgements.plist */,
+				6338D9FA4A4719452AF6695CEBD55F26 /* Pods-CaptureSimulator-dummy.m */,
+				668BD98E5232E5B129EB04AF707D7926 /* Pods-CaptureSimulator-Info.plist */,
+				A8E3FCCB47E8EE64524C458D1A55C62E /* Pods-CaptureSimulator-umbrella.h */,
+				08B8D32770C3059855D6C98CA4DEC12B /* Pods-CaptureSimulator.debug.xcconfig */,
+				145B34872C2078B05F7E2F550867A1CF /* Pods-CaptureSimulator.release.xcconfig */,
+			);
+			name = "Pods-CaptureSimulator";
+			path = "Target Support Files/Pods-CaptureSimulator";
+			sourceTree = "<group>";
+		};
+		5E0FF4A3D6E057A6481174CCF295A880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC54C613B8D3DF9C09EF9D24B5AE4C99 /* Pods_CaptureSimulator.framework */,
+				0165CF2FF01056609193711AB157E6EF /* Pods_CaptureSimulatorTests.framework */,
+				B46AE28B216DF47A2EFCD86268B17BBD /* Pods_CaptureSimulatorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85F3F47BB83C9F8A6233C768A7CB9A61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CDAAB87562BA1708EDF1BA79E4E0E18 /* Pods-CaptureSimulator */,
+				E2533EDF4A20D23A15AEC1F799A6C8D7 /* Pods-CaptureSimulatorTests */,
+				A88AA342162CB2C3CEEF9D4F992F382C /* Pods-CaptureSimulatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A88AA342162CB2C3CEEF9D4F992F382C /* Pods-CaptureSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E84E17B82B1C13078629C18D65C6D5 /* Pods-CaptureSimulatorUITests.modulemap */,
+				1A88C9C3D659134B1B6E82231D30666F /* Pods-CaptureSimulatorUITests-acknowledgements.markdown */,
+				ADE2FB3B72121C6BAF527C25BD135D0D /* Pods-CaptureSimulatorUITests-acknowledgements.plist */,
+				AF352F0A9E3B203645CEB6F87B7CCFE1 /* Pods-CaptureSimulatorUITests-dummy.m */,
+				0C186E88C269CC5428EC7DE0149DAD88 /* Pods-CaptureSimulatorUITests-Info.plist */,
+				2579B026F5BE1FB826D67AD1A9EE2FDF /* Pods-CaptureSimulatorUITests-umbrella.h */,
+				574518DF9BED7D82D53C61A6CE561158 /* Pods-CaptureSimulatorUITests.debug.xcconfig */,
+				33C978B525B5E9CA972B6411A7B09CB5 /* Pods-CaptureSimulatorUITests.release.xcconfig */,
+			);
+			name = "Pods-CaptureSimulatorUITests";
+			path = "Target Support Files/Pods-CaptureSimulatorUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5E0FF4A3D6E057A6481174CCF295A880 /* Products */,
+				85F3F47BB83C9F8A6233C768A7CB9A61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2533EDF4A20D23A15AEC1F799A6C8D7 /* Pods-CaptureSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4455DC916B33E7CEA772AB2F4DD08111 /* Pods-CaptureSimulatorTests.modulemap */,
+				531DD1A3E31E54E4A5CC258DE24A2EBE /* Pods-CaptureSimulatorTests-acknowledgements.markdown */,
+				BD68F68015AE60BC1D5FECA3283241D4 /* Pods-CaptureSimulatorTests-acknowledgements.plist */,
+				23D5A2D433ED9C9A2D377BD70B5B096D /* Pods-CaptureSimulatorTests-dummy.m */,
+				64A514DABCBDF79C781CDB9F6101C83A /* Pods-CaptureSimulatorTests-Info.plist */,
+				FD3196A1C5611F551B98FDAEBAEC5A78 /* Pods-CaptureSimulatorTests-umbrella.h */,
+				17D0FDBC79B67267FB05D36E67717641 /* Pods-CaptureSimulatorTests.debug.xcconfig */,
+				1B7D343B48305D1659480C2D5FB7693D /* Pods-CaptureSimulatorTests.release.xcconfig */,
+			);
+			name = "Pods-CaptureSimulatorTests";
+			path = "Target Support Files/Pods-CaptureSimulatorTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90850B56D92574B8D6E2EEA6C497D14D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4298674E05BDB523D5CC31E29C92695E /* Pods-CaptureSimulatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08C1F7EC43289099D2748D7AA23ABD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5590B1BE1E8FAAE487DFCC4ECD3189D /* Pods-CaptureSimulatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F988F7F900B8E2774E9DAB6747D5B08E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654737E5726FAB7E0B62F84A6F76741A /* Pods-CaptureSimulator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7F70DA8C5F8602309F4036A4CCA861F /* Pods-CaptureSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBD4A151ED2A9ACDAFECEF1F8A3AB9C /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulatorTests" */;
+			buildPhases = (
+				F08C1F7EC43289099D2748D7AA23ABD7 /* Headers */,
+				4E2A959C6F601426541FFC574B70B231 /* Sources */,
+				769267A67768375DB916E410420F41F6 /* Frameworks */,
+				43D09C30A315C9A6C2C9A43F809587AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C94EF5E748B8B7BFD130D7485CA4FC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CaptureSimulatorTests";
+			productName = "Pods-CaptureSimulatorTests";
+			productReference = 0165CF2FF01056609193711AB157E6EF /* Pods_CaptureSimulatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0941D4E115ACC2FF30A18A16E5D7985 /* Pods-CaptureSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4868E930E5E1DB31C8790D7B20BD2C /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulator" */;
+			buildPhases = (
+				F988F7F900B8E2774E9DAB6747D5B08E /* Headers */,
+				E36B0438882C344873619BFA8C6E6577 /* Sources */,
+				513EC5D1A88B6F5646A4F402FEACB9D0 /* Frameworks */,
+				14464C5A0AB9AEA35349CF814725B0B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CaptureSimulator";
+			productName = "Pods-CaptureSimulator";
+			productReference = AC54C613B8D3DF9C09EF9D24B5AE4C99 /* Pods_CaptureSimulator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1A556C0042CC873311611E83135F33F /* Pods-CaptureSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C437DAC2E58AEF4768CEE00767A661DB /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulatorUITests" */;
+			buildPhases = (
+				90850B56D92574B8D6E2EEA6C497D14D /* Headers */,
+				584414FCCE6EB87D9993FAE767BEB7DE /* Sources */,
+				4ADC1E477C94C0BA89B89D972BA9D10F /* Frameworks */,
+				5EC5CACEF95DA3CBAFAFF0303D62D296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA401063ECC2077DA5B67569FA91583D /* PBXTargetDependency */,
+			);
+			name = "Pods-CaptureSimulatorUITests";
+			productName = "Pods-CaptureSimulatorUITests";
+			productReference = B46AE28B216DF47A2EFCD86268B17BBD /* Pods_CaptureSimulatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E0FF4A3D6E057A6481174CCF295A880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0941D4E115ACC2FF30A18A16E5D7985 /* Pods-CaptureSimulator */,
+				D7F70DA8C5F8602309F4036A4CCA861F /* Pods-CaptureSimulatorTests */,
+				E1A556C0042CC873311611E83135F33F /* Pods-CaptureSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14464C5A0AB9AEA35349CF814725B0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D09C30A315C9A6C2C9A43F809587AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC5CACEF95DA3CBAFAFF0303D62D296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2A959C6F601426541FFC574B70B231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43109E954986F2C62A9D762B0F1300 /* Pods-CaptureSimulatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584414FCCE6EB87D9993FAE767BEB7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF35B29CD594217440B4F44E74818DD /* Pods-CaptureSimulatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36B0438882C344873619BFA8C6E6577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DEC474AE64007349803AAC3C545675 /* Pods-CaptureSimulator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C94EF5E748B8B7BFD130D7485CA4FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CaptureSimulator";
+			target = E0941D4E115ACC2FF30A18A16E5D7985 /* Pods-CaptureSimulator */;
+			targetProxy = CB4510D13E2AA3BFA2C0206428B9E476 /* PBXContainerItemProxy */;
+		};
+		AA401063ECC2077DA5B67569FA91583D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CaptureSimulator";
+			target = E0941D4E115ACC2FF30A18A16E5D7985 /* Pods-CaptureSimulator */;
+			targetProxy = B4417D3ACDCC1A551CFC6FB782349807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37EDEDDC2DB04A7945A0F1EBBC3E9903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7D343B48305D1659480C2D5FB7693D /* Pods-CaptureSimulatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F1CB0F5987A0F65ABBA8F6A926691CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C978B525B5E9CA972B6411A7B09CB5 /* Pods-CaptureSimulatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAA6067009E353D4A9ACED3D94D67938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574518DF9BED7D82D53C61A6CE561158 /* Pods-CaptureSimulatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C21FB40F739B12BA1401A0F9B47306D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D0FDBC79B67267FB05D36E67717641 /* Pods-CaptureSimulatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB735DB48E837E80FCA513481FB1583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B8D32770C3059855D6C98CA4DEC12B /* Pods-CaptureSimulator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCF1FA50761FC1EA2F8D3AE96EB74EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145B34872C2078B05F7E2F550867A1CF /* Pods-CaptureSimulator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBD4A151ED2A9ACDAFECEF1F8A3AB9C /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21FB40F739B12BA1401A0F9B47306D0 /* Debug */,
+				37EDEDDC2DB04A7945A0F1EBBC3E9903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4868E930E5E1DB31C8790D7B20BD2C /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB735DB48E837E80FCA513481FB1583C /* Debug */,
+				DCF1FA50761FC1EA2F8D3AE96EB74EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C437DAC2E58AEF4768CEE00767A661DB /* Build configuration list for PBXNativeTarget "Pods-CaptureSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAA6067009E353D4A9ACED3D94D67938 /* Debug */,
+				9F1CB0F5987A0F65ABBA8F6A926691CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
