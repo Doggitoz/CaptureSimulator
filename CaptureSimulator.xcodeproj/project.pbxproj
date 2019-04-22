@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		643E9E243FF9810DDE5BA3E1 /* Pods_CaptureSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70828839DB0523872143FE3A /* Pods_CaptureSimulator.framework */; };
+		85ED590E25B05293EC34BAD4 /* libPods-CaptureSimulatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 068F896057F0F01B3D70FA8D /* libPods-CaptureSimulatorTests.a */; };
 		9224D3B1226759C20022DB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3B0226759C20022DB4D /* AppDelegate.swift */; };
 		9224D3B3226759C20022DB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3B2226759C20022DB4D /* ViewController.swift */; };
 		9224D3B6226759C20022DB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9224D3B4226759C20022DB4D /* Main.storyboard */; };
@@ -17,8 +18,7 @@
 		9224D3D1226759C40022DB4D /* CaptureSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3D0226759C40022DB4D /* CaptureSimulatorUITests.swift */; };
 		9224D3DF226763340022DB4D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3DE226763340022DB4D /* Notes.swift */; };
 		92EABAD1226DFCA700A45418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92EABAD0226DFCA700A45418 /* GoogleService-Info.plist */; };
-		ACD86EB11930C2A57EC3D519 /* Pods_CaptureSimulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81919E8608C2B3EC6F8C251C /* Pods_CaptureSimulatorTests.framework */; };
-		FA20F1A0EB740D210EE48500 /* Pods_CaptureSimulatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CD80E8BEEF463B8538E5D5 /* Pods_CaptureSimulatorUITests.framework */; };
+		ADE01D46C63C03DE6DE89C11 /* libPods-CaptureSimulatorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		068F896057F0F01B3D70FA8D /* libPods-CaptureSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaptureSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F71BE83DAA2DBCA87B845B /* Pods-CaptureSimulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaptureSimulatorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9FA27491DEF4B21533C84A /* Pods-CaptureSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulator.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.release.xcconfig"; sourceTree = "<group>"; };
 		70828839DB0523872143FE3A /* Pods_CaptureSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81919E8608C2B3EC6F8C251C /* Pods_CaptureSimulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9224D3AD226759C20022DB4D /* CaptureSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9224D3B0226759C20022DB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9224D3B2226759C20022DB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		D0A07892E8D0A7ED9248C63D /* Pods-CaptureSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulator.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		DDDA3AF990FB56EEC0566178 /* Pods-CaptureSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		E22C7EAB03606ABB59A1FE9C /* Pods-CaptureSimulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorUITests.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F4CD80E8BEEF463B8538E5D5 /* Pods_CaptureSimulatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD86EB11930C2A57EC3D519 /* Pods_CaptureSimulatorTests.framework in Frameworks */,
+				85ED590E25B05293EC34BAD4 /* libPods-CaptureSimulatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA20F1A0EB740D210EE48500 /* Pods_CaptureSimulatorUITests.framework in Frameworks */,
+				ADE01D46C63C03DE6DE89C11 /* libPods-CaptureSimulatorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				70828839DB0523872143FE3A /* Pods_CaptureSimulator.framework */,
-				81919E8608C2B3EC6F8C251C /* Pods_CaptureSimulatorTests.framework */,
-				F4CD80E8BEEF463B8538E5D5 /* Pods_CaptureSimulatorUITests.framework */,
+				068F896057F0F01B3D70FA8D /* libPods-CaptureSimulatorTests.a */,
+				380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -4,6 +4,7 @@ platform :ios, '10.0'
 target 'CaptureSimulator' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
+  end
 
   # Pods for CaptureSimulator
 
@@ -13,10 +14,6 @@ target 'CaptureSimulator' do
   end
 
   target 'CaptureSimulatorUITests' do
-    inherit! :search_paths
-    # Pods for testing
+    pod 'Firebase/Core'
   end
 
-  target 'CaptureSimulator' do
-    pod 'Firebase'
-  end
