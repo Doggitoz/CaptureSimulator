@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -17,20 +18,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //var ref = Database.database().reference()
+        
     }
     
     
     @IBAction func runAway(_ sender: Any) {
-        let pokemon = generateNewPokemon()
-        updateData(pokemonName: pokemon)
+        generateNewPokemon()
     }
     
-    func generateNewPokemon() -> String {
+    func generateNewPokemon() {
+        //let id = Int.random(in: 1...202)
+        //ref.
+        //let name = "Zigzagoon"
         let pokemon = "Zigzagoon"
-        return pokemon
+        updateGameData(pokemonName: pokemon)
     }
     
-    func updateData(pokemonName: String) {
+    func updateData(){
+        
+        
+    }
+    
+    func updateGameData(pokemonName: String) {
         pokemon.image = UIImage(named: pokemonName)
         difficulty = 1
     }
@@ -38,15 +49,24 @@ class ViewController: UIViewController {
     
     @IBAction func throwPokeball(_ sender: Any) {
         let number = Int.random(in: 1...255)
-        print("\(number)")
+        let tries = Int.random(in: 10...20)
+        var amountOfTries = 0
         let a = (48 * difficulty)
+        
+        print("\(number)")
         print("\(a)")
+        
         if number > a {
             caughtLabel.text = "Caught!"
-            let pokemon = generateNewPokemon()
-            updateData(pokemonName: pokemon)
+            updateData()
+            generateNewPokemon()
+        } else if amountOfTries > tries {
+            caughtLabel.text = "The pokemon fled!"
+            amountOfTries = 0
+            generateNewPokemon()
         } else {
-            caughtLabel.text = "your bad idot"
+            caughtLabel.text = "Your bad idot"
+            amountOfTries += 1
         }
     }
 }

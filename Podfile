@@ -13,7 +13,6 @@ target 'CaptureSimulator' do
     # Pods for testing
   end
 
-  target 'CaptureSimulatorUITests' do
-    pod 'Firebase/Core'
-  end
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 

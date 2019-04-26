@@ -18,7 +18,6 @@
 		9224D3D1226759C40022DB4D /* CaptureSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3D0226759C40022DB4D /* CaptureSimulatorUITests.swift */; };
 		9224D3DF226763340022DB4D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3DE226763340022DB4D /* Notes.swift */; };
 		92EABAD1226DFCA700A45418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92EABAD0226DFCA700A45418 /* GoogleService-Info.plist */; };
-		ADE01D46C63C03DE6DE89C11 /* libPods-CaptureSimulatorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		068F896057F0F01B3D70FA8D /* libPods-CaptureSimulatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaptureSimulatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F71BE83DAA2DBCA87B845B /* Pods-CaptureSimulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CaptureSimulatorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9FA27491DEF4B21533C84A /* Pods-CaptureSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulator.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.release.xcconfig"; sourceTree = "<group>"; };
 		70828839DB0523872143FE3A /* Pods_CaptureSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9224D3AD226759C20022DB4D /* CaptureSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +59,6 @@
 		AE511C0E7A46DCCC75DFA24E /* Pods-CaptureSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0A07892E8D0A7ED9248C63D /* Pods-CaptureSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulator.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		DDDA3AF990FB56EEC0566178 /* Pods-CaptureSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
-		E22C7EAB03606ABB59A1FE9C /* Pods-CaptureSimulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorUITests.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorUITests/Pods-CaptureSimulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE01D46C63C03DE6DE89C11 /* libPods-CaptureSimulatorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +95,6 @@
 				6F9FA27491DEF4B21533C84A /* Pods-CaptureSimulator.release.xcconfig */,
 				AE511C0E7A46DCCC75DFA24E /* Pods-CaptureSimulatorTests.debug.xcconfig */,
 				DDDA3AF990FB56EEC0566178 /* Pods-CaptureSimulatorTests.release.xcconfig */,
-				37F71BE83DAA2DBCA87B845B /* Pods-CaptureSimulatorUITests.debug.xcconfig */,
-				E22C7EAB03606ABB59A1FE9C /* Pods-CaptureSimulatorUITests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -167,7 +160,6 @@
 			children = (
 				70828839DB0523872143FE3A /* Pods_CaptureSimulator.framework */,
 				068F896057F0F01B3D70FA8D /* libPods-CaptureSimulatorTests.a */,
-				380433BA49F7EEBDEDBBDC5A /* libPods-CaptureSimulatorUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,6 +175,7 @@
 				9224D3A9226759C20022DB4D /* Sources */,
 				9224D3AA226759C20022DB4D /* Frameworks */,
 				9224D3AB226759C20022DB4D /* Resources */,
+				DD99C154216C56AC482974A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +209,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9224D3DB226759C40022DB4D /* Build configuration list for PBXNativeTarget "CaptureSimulatorUITests" */;
 			buildPhases = (
-				F8770ACE11A513F254D68BD3 /* [CP] Check Pods Manifest.lock */,
 				9224D3C8226759C40022DB4D /* Sources */,
 				9224D3C9226759C40022DB4D /* Frameworks */,
 				9224D3CA226759C40022DB4D /* Resources */,
@@ -325,6 +317,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DD99C154216C56AC482974A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E2BE5B720672A96BB151541F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,28 +359,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CaptureSimulatorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8770ACE11A513F254D68BD3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CaptureSimulatorUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -629,7 +625,6 @@
 		};
 		9224D3DC226759C40022DB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F71BE83DAA2DBCA87B845B /* Pods-CaptureSimulatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,7 +644,6 @@
 		};
 		9224D3DD226759C40022DB4D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E22C7EAB03606ABB59A1FE9C /* Pods-CaptureSimulatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
