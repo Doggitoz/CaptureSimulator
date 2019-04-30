@@ -20,11 +20,12 @@ class ViewController: UIViewController {
     var difficulty = 5
     var amountOfTries = 0
     
-    var ref = Database.database().reference()
+    var ref: DatabaseReference!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        ref = Database.database().reference()
     
     }
     
@@ -70,17 +71,18 @@ class ViewController: UIViewController {
         print("\(a)")
         
         //Check if the pokemon is caught or not
-        if number > a {
+        if number > 300 {
             caughtLabel.text = "Caught!"
             updateData()
             generateNewPokemon()
-        } else if amountOfTries > tries {
-            caughtLabel.text = "The pokemon fled!"
-            amountOfTries = 0
-            generateNewPokemon()
-        } else {
+        }  else {
             caughtLabel.text = "Your bad idot"
             amountOfTries = amountOfTries + 1
+            if amountOfTries > tries {
+                caughtLabel.text = "The pokemon fled!"
+                amountOfTries = 0
+                generateNewPokemon()
+            }
         }
     }
 }
