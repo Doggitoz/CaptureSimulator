@@ -16,8 +16,8 @@
 		9224D3BB226759C40022DB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9224D3B9226759C40022DB4D /* LaunchScreen.storyboard */; };
 		9224D3C6226759C40022DB4D /* CaptureSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3C5226759C40022DB4D /* CaptureSimulatorTests.swift */; };
 		9224D3D1226759C40022DB4D /* CaptureSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3D0226759C40022DB4D /* CaptureSimulatorUITests.swift */; };
-		9224D3DF226763340022DB4D /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224D3DE226763340022DB4D /* Notes.swift */; };
-		92EABAD1226DFCA700A45418 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92EABAD0226DFCA700A45418 /* GoogleService-Info.plist */; };
+		92767A6E227897AB00AA5A87 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767A6D227897AB00AA5A87 /* SignIn.swift */; };
+		92767A7822789B3500AA5A87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92767A7722789B3500AA5A87 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		9224D3CC226759C40022DB4D /* CaptureSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptureSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9224D3D0226759C40022DB4D /* CaptureSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSimulatorUITests.swift; sourceTree = "<group>"; };
 		9224D3D2226759C40022DB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9224D3DE226763340022DB4D /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
-		92EABAD0226DFCA700A45418 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92767A6D227897AB00AA5A87 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		92767A7722789B3500AA5A87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE511C0E7A46DCCC75DFA24E /* Pods-CaptureSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0A07892E8D0A7ED9248C63D /* Pods-CaptureSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulator.debug.xcconfig"; path = "Target Support Files/Pods-CaptureSimulator/Pods-CaptureSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		DDDA3AF990FB56EEC0566178 /* Pods-CaptureSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureSimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-CaptureSimulatorTests/Pods-CaptureSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +96,6 @@
 				AE511C0E7A46DCCC75DFA24E /* Pods-CaptureSimulatorTests.debug.xcconfig */,
 				DDDA3AF990FB56EEC0566178 /* Pods-CaptureSimulatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,12 +126,12 @@
 			children = (
 				9224D3B0226759C20022DB4D /* AppDelegate.swift */,
 				9224D3B2226759C20022DB4D /* ViewController.swift */,
+				92767A6D227897AB00AA5A87 /* SignIn.swift */,
 				9224D3B4226759C20022DB4D /* Main.storyboard */,
-				9224D3DE226763340022DB4D /* Notes.swift */,
 				9224D3B7226759C40022DB4D /* Assets.xcassets */,
 				9224D3B9226759C40022DB4D /* LaunchScreen.storyboard */,
+				92767A7722789B3500AA5A87 /* GoogleService-Info.plist */,
 				9224D3BC226759C40022DB4D /* Info.plist */,
-				92EABAD0226DFCA700A45418 /* GoogleService-Info.plist */,
 			);
 			path = CaptureSimulator;
 			sourceTree = "<group>";
@@ -273,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9224D3BB226759C40022DB4D /* LaunchScreen.storyboard in Resources */,
-				92EABAD1226DFCA700A45418 /* GoogleService-Info.plist in Resources */,
+				92767A7822789B3500AA5A87 /* GoogleService-Info.plist in Resources */,
 				9224D3B8226759C40022DB4D /* Assets.xcassets in Resources */,
 				9224D3B6226759C20022DB4D /* Main.storyboard in Resources */,
 			);
@@ -400,8 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9224D3B3226759C20022DB4D /* ViewController.swift in Sources */,
+				92767A6E227897AB00AA5A87 /* SignIn.swift in Sources */,
 				9224D3B1226759C20022DB4D /* AppDelegate.swift in Sources */,
-				9224D3DF226763340022DB4D /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import FirebaseAuth
 import FirebaseCore
 import FirebaseDatabase
 import GoogleSignIn
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GIDSignInUIDelegate {
 
     @IBOutlet weak var pokemon: UIImageView!
     @IBOutlet weak var caughtLabel: UILabel!
@@ -21,12 +22,16 @@ class ViewController: UIViewController {
     var amountOfTries = 0
     
     var ref: DatabaseReference!
+    var firebaseAuth = Auth.auth()
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         ref = Database.database().reference()
-    
+        
+        GIDSignIn.sharedInstance()?.uiDelegate = self
+        //Automatically sign in the user
+        //GIDSignIn.sharedInstance()?.signInSilently()
     }
     
     @IBAction func runAway(_ sender: Any)
@@ -36,10 +41,10 @@ class ViewController: UIViewController {
     
     func generateNewPokemon()
     {
-        //let userID = Auth.auth()
+        let userID = firebaseAuth.currentUser?.uid
         //Generate random index in pokemon database
-       // let randomIndex = Int.random(in: 1...numberOfPokemon)
-        //ref.child("pokemon").child(<#T##pathString: String##String#>)
+        let randomIndex = Int.random(in: 1...numberOfPokemon)
+        //ref.child("pokemon").child(randomIndex)
         
         let pokemon = "Zigzagoon"
         updateGameData(pokemonName: pokemon)
@@ -83,6 +88,15 @@ class ViewController: UIViewController {
                 amountOfTries = 0
                 generateNewPokemon()
             }
+        }
+    }
+    
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!)
+    {
+        if error == nil {
+            //Any action
+        } else {
+            print("\(error.localizedDescription)")
         }
     }
 }
