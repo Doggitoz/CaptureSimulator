@@ -7,31 +7,22 @@
 //
 
 import UIKit
-import FirebaseAuth
-import FirebaseCore
-import FirebaseDatabase
-import GoogleSignIn
+import Darwin
 
-class ViewController: UIViewController, GIDSignInUIDelegate {
+class ViewController: UIViewController {
 
     @IBOutlet weak var pokemon: UIImageView!
     @IBOutlet weak var caughtLabel: UILabel!
     
-    var numberOfPokemon = 202
     var difficulty = 5
     var amountOfTries = 0
-    
-    var ref: DatabaseReference!
-    var firebaseAuth = Auth.auth()
+    var randomIndex = 0
+    var currentPokemon = ""
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        ref = Database.database().reference()
-        
-        GIDSignIn.sharedInstance()?.uiDelegate = self
-        //Automatically sign in the user
-        //GIDSignIn.sharedInstance()?.signInSilently()
+        generateNewPokemon()
     }
     
     @IBAction func runAway(_ sender: Any)
@@ -41,62 +32,66 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     
     func generateNewPokemon()
     {
-        let userID = firebaseAuth.currentUser?.uid
-        //Generate random index in pokemon database
-        let randomIndex = Int.random(in: 1...numberOfPokemon)
-        //ref.child("pokemon").child(randomIndex)
+        //Generate random index
+        randomIndex = Int.random(in: 0...134)
         
-        let pokemon = "Zigzagoon"
-        updateGameData(pokemonName: pokemon)
+        //Select pokemon data
+        let newPokemon:String = Pokelist.pokelist[randomIndex][0] as! String
+        let newDifficulty:Int = Pokelist.pokelist[randomIndex][1] as! Int
+        currentPokemon = newPokemon
+        updateGameData(pokemonName: newPokemon, newDifficulty: newDifficulty)
     }
     
-    func updateData()
-    {
-        //Set values for pokedex metadata
-        
-    }
-    
-    func updateGameData(pokemonName: String)
+    func updateGameData(pokemonName: String, newDifficulty: Int)
     {
         //Update the image and difficulty values for the new pokemon
         pokemon.image = UIImage(named: pokemonName)
-        difficulty = 1
+        difficulty = newDifficulty
+        print(difficulty)
     }
     
     
     @IBAction func throwPokeball(_ sender: Any)
     {
+        //Clear label
+        caughtLabel.text = ""
+        
         //Generate variables for catchrate and run formulas
         let number = Int.random(in: 1...255)
-        let tries = Int.random(in: 10...20)
+        let tries = Int.random(in: 3...10)
         let a = (48 * difficulty)
         
         //Print to console for debugging
         print("\(number)")
         print("\(a)")
         
-        //Check if the pokemon is caught or not
-        if number > 300 {
-            caughtLabel.text = "Caught!"
-            updateData()
-            generateNewPokemon()
-        }  else {
-            caughtLabel.text = "Your bad idot"
-            amountOfTries = amountOfTries + 1
-            if amountOfTries > tries {
-                caughtLabel.text = "The pokemon fled!"
-                amountOfTries = 0
-                generateNewPokemon()
-            }
+        //Pokeball
+        pokemon.image = UIImage(named: "pokeball")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+            self.checkCatch(a: a, tries: tries, number: number)
         }
     }
     
-    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!)
-    {
-        if error == nil {
-            //Any action
-        } else {
-            print("\(error.localizedDescription)")
+    func checkCatch(a: Int, tries: Int, number: Int) {
+        //Check if the pokemon is caught or not
+        if number > a {
+            caughtLabel.text = "Caught!"
+            pokemon.image = UIImage(named: "stars")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                self.generateNewPokemon()
+            }
+        }  else {
+            caughtLabel.text = "The pokemon failed to be caught!"
+            pokemon.image = UIImage(named: currentPokemon)
+            amountOfTries = amountOfTries + 1
+            if amountOfTries > tries {
+                pokemon.image = UIImage(named: "runaway")
+                caughtLabel.text = "The pokemon fled!"
+                amountOfTries = 0
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                    self.generateNewPokemon()
+                }
+            }
         }
     }
 }

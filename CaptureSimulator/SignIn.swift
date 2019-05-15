@@ -6,7 +6,7 @@
 //  Copyright © 2019 Front Row. All rights reserved.
 //
 
-import UIKit
+/*import UIKit
 import GoogleSignIn
 
 class SignIn: GIDSignInButton {
@@ -21,3 +21,4 @@ class SignIn: GIDSignInButton {
     }
 
 }
+*/
