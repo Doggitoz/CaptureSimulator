@@ -11,6 +11,7 @@ import Foundation
 struct Pokelist {
     static var pokelist =
         [
+          //[Pokemon, difficulty]
             ["Treeko", 3],
             ["Grovyle", 4],
             ["Sceptile", 5],

@@ -7,13 +7,14 @@
 //
 
 import UIKit
-import Darwin
 
 class ViewController: UIViewController {
 
+    //Create outlets
     @IBOutlet weak var pokemon: UIImageView!
     @IBOutlet weak var caughtLabel: UILabel!
     
+    //Create global variables
     var difficulty = 5
     var amountOfTries = 0
     var randomIndex = 0
@@ -25,11 +26,13 @@ class ViewController: UIViewController {
         generateNewPokemon()
     }
     
+    //Escape current pokemon
     @IBAction func runAway(_ sender: Any)
     {
         generateNewPokemon()
     }
     
+    //Randomly generates a new pokemon
     func generateNewPokemon()
     {
         //Generate random index
@@ -42,6 +45,7 @@ class ViewController: UIViewController {
         updateGameData(pokemonName: newPokemon, newDifficulty: newDifficulty)
     }
     
+    //Update data important to continue gameplay
     func updateGameData(pokemonName: String, newDifficulty: Int)
     {
         //Update the image and difficulty values for the new pokemon
@@ -50,7 +54,7 @@ class ViewController: UIViewController {
         print(difficulty)
     }
     
-    
+    //Throw pokeball at the pokemon
     @IBAction func throwPokeball(_ sender: Any)
     {
         //Clear label
@@ -72,7 +76,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func checkCatch(a: Int, tries: Int, number: Int) {
+    //Calculate to check if catching worked
+    func checkCatch(a: Int, tries: Int, number: Int)
+    {
         //Check if the pokemon is caught or not
         if number > a {
             caughtLabel.text = "Caught!"

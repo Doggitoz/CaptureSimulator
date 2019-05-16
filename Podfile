@@ -17,4 +17,3 @@ target 'CaptureSimulator' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
-
